@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Google.css">
+</head>
+<body>
+    <form name="data" action="join_p.jsp" method="post" onsubmit="return checkValue()"></form>
+    
+        <div class="dropdown"> 
+        <button class="dropdown-button"><img src="img/제목 없음.png">RIOT<br>GAMES
+        <div class="dropdown-content">
+        <a href="https://www.leagueoflegends.com/ko-kr/">LEAGUE OF LEGENDS</a>
+        <a href="https://playvalorant.com/ko-kr/">VALORANT</a>
+        <a href=https://teamfighttactics.leagueoflegends.com/ko-kr/">TEAMFIGHT TACTICS</a>
+        <a href="https://wildrift.leagueoflegends.com/ko-kr/">LEAGUE OF LEGENDS<br>WILDRIFT</a>
+        </div>
+    </button>
+    </div>
+    
+    <div class="라이엇소개">
+        <img src="img/다운로드 (1).png"><a href="https://www.riotgames.com/ko/who-we-are"><br>라이엇 소개</a>
+    </div>
+    <a href="https://www.riotgames.com/ko/work-with-us">라이엇에서 일하기</a>
+    
+    <a href="https://www.riotgames.com/ko/news">소식</a>
+    <div class="배경">
+        <center>
+            <div>
+                회원가입
+            </div>
+            <div id="이름">
+            이름: <input type="text" name="name"/>
+            </div>
+            <div>
+                닉네임: <input type="text" name="name"/>
+            </div>
+            <div id="아이디">
+             아이디: <input type="text" name="name"/> <button type="button" onclick="alert('사용 가능한 아이디입니다')">아이디 확인</button>
+            </div>
+            <div class="비밀번호">
+                비밀번호: <input type="password" name="pass"> 8~20까지
+            </div>
+            <div class="비밀번호">
+                비밀번호 확인: <input type="password" name="pass">
+            </div>
+            <div id="이메일">
+                이메일 주소: <input type="text" name="name"/>
+            </div>        
+        <div class="개인정보">
+            <input type="checkbox" name="check">개인정보 수집 및 이용에 동의(필수)
+        </div>
+        <div class="개인정보">
+            <input type="checkbox" name="check">개인정보 국외 이전에 동의(필수)
+        </div>
+        <div id="등록">
+        <input type="submit" value="등록">
+        <input type="reset" value="취소">
+        </div>
+        </center>
+    </div>
+    
+</body>
+</html>

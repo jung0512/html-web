@@ -1,0 +1,73 @@
+body{
+    background-image: url(img/라이엇.jpg);
+}
+#회원가입{
+    color: black;
+}
+div.배경{
+    background-image: url("img/라이엇.jpg");
+    border: 1px solid black;
+    width: 400px;
+    margin-top:10px;
+    margin-left: 2000px;
+    border: 2px solid #B8860B;
+        width: 400px;
+        position: fixed;
+        top: 0;
+        right: 0;
+}
+
+.dropdown{
+    color: #000000;
+    width: 90px;
+}
+.dropdown-button {
+    float: left;
+    padding: 8px;
+    font-size: 15px;
+    border: none;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #CD853F;
+    min-width: 75px;
+    padding: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+    color: black;
+    padding: 8px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover { background-color: #CD853F; }
+.dropdown:hover .dropdown-content { display: block; }
+.dropdown:hover .dropdown-button { background-color: #CD853F; }
+
+.E스포츠{
+    background-color: beige;
+    display: inline;
+    width: 90px;
+    margin-left: 10px;
+    
+}
+div.이미지{
+    
+    width: 1500px;
+    margin-top: 150px;
+    position: relative;
+    right: 0;
+}
+.라이엇소개{
+    float: left;
+    width: 90px;
+    background-color: antiquewhite;
+    border: 1px solid black;
+}
+.일{
+    float: left;
+    width: 150px;
+    background-color: antiquewhite;
+    border: 1px solid black;
+}
